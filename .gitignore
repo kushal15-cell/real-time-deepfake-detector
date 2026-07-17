@@ -1,0 +1,27 @@
+@"
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+data/raw/
+data/mixed_raw/
+data/mixed_faces/
+data/evaluation_videos/
+data/frames/
+data/faces/
+data/videos/
+
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+.streamlit/secrets.toml
+.DS_Store
+Thumbs.db
+
+reports/*.csv
+"@ | Set-Content .gitignore
